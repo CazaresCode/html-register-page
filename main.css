@@ -1,0 +1,64 @@
+body {
+    background-color: skyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    font-size: 1em;
+}
+.navbar {
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+#about-us {
+    border-radius: 10%;
+    background-color: skyblue;
+    color: white;
+    margin-right: 5px;
+    border-style:none;
+    padding: 5px 10px;
+}
+
+#register {
+    border-radius: 10%;
+    background-color: skyblue;
+    color: white;
+    border-style:none;
+    padding: 5px 10px;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    margin:  auto;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 25%;
+    margin-top: 100px;
+}
+
+#email, #username, #password, #password2 {
+   display: block;
+   width: 100%;
+}
+
+#amazon, #facebook, #github, #slack, #instagram {
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#submit {
+    display: inline-block;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: none;
+}
